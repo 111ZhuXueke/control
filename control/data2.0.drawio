@@ -1,1 +1,220 @@
-<mxfile host="app.diagrams.net" modified="2022-05-06T04:46:42.141Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" version="16.5.3" etag="L39cJaYJRDQK14gkbJ4g" type="github"><diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">7VhZc9MwEP41Hp5gfBQnecRp0wKhU2ihw6NiK7aI7DWynINfzyqWYzsOOYD0yDQv0a43K2m/b4/YcPrx/FKQNPoEAeWGbQZzwzk3bNuybQe/lGZRaLq9bqEIBQu0UaW4Zb+oVppam7OAZg1DCcAlS5tKH5KE+rKhI0LArGk2Bt7cNSUhbSlufcLb2nsWyEjfwu5U+ivKwqjc2XJ7xZOYlMb6JllEApjVVM6F4fQFgCxW8bxPuQpeGZf794t7Ppy4lx8+Zz/JV+/j3fW314WzwSE/WV1B0ET+X9d24XpKeK7jpe8qF2UABeRJQJUT03C8SMYclxYuf1ApFxpwkktAFQgZQQgJ4UOAVNuNIZHazFIyTYJ3CliURxz8SaEaMM71Hihp+y5KmRQwWWGnHKyAUMacjCj3iD8JlwftAweBjxJIqHIVIBn0XarDXVRab8/YagwyyIVPt9jpbJFEhHSbP7ewU+er8VQjd0khplIs0EBQTiSbNslMdE6EK7sKd1xo6A+ggdOiwZDEqcp6oFnySuJqBmKyhRsKl1nEJL1NyTJAMywnTb7UeYBX9UJOskyjuAPkw0CaUiHpfGtYy6euzu2yuGlxVlUKq0z/qFYlzswjAXHWAuI7Fs+XlPyXlHT3TMmyY+3MSU2Wkhh7p6j2dAMskTUTGI8zPNg6dVYb/j2b3rbYdA0tMu3G41nT7ZHI1DmMS9aT55L7hxbhcgyDNxK4CtUq5XkYIlnQXWI4g3btiiAe5dnudtHAWDFoQGLGVbyuKJ9SyXyyoakQzkLc99xHuKnYTB7ckiUhSm4l3S3JivX3iM2m02w2K7nebcwN3aZ7rG7TaWF6g+gV0NkmX+J7Yh3fsddA6D12y+/uU6SfdQl+8I5fVtPdLd/as0xr9phvHPw0CPT0p4DeXjPlyxhwHIbZpzYIlCes8cnL+ag9CYxykSwHAcjlyySwbRKwNzWhB50EykJYA/ULTQlDMM3hKc4B6//8z5zHngPKStGEgKuY2maRYSeGwfos5ljHwwDF6k1tUQqr993OxW8=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-06T06:01:59.919Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="YFBQohSPLlZlBlDRxzsm" version="16.5.3" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1847" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-0" target="9ICDOCjzjDNLYAUlCZeT-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-0" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="105" y="80" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-3" target="9ICDOCjzjDNLYAUlCZeT-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=7;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-3" target="9ICDOCjzjDNLYAUlCZeT-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-3" value="是否抢到锁" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fontSize=8;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="100" y="140" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-8" target="9ICDOCjzjDNLYAUlCZeT-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-8" value="初始化player对应的csv数量在本地缓存，统筹者内使用" style="whiteSpace=wrap;html=1;rounded=1;fontSize=7;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="82.5" y="260" width="115" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-10" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="140" y="220" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-11" target="9ICDOCjzjDNLYAUlCZeT-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-11" value="定义开关，表示定时任务正在执行，此时手动执行组件无法执行" style="whiteSpace=wrap;html=1;rounded=1;fontSize=8;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="80" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=7;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-13" target="9ICDOCjzjDNLYAUlCZeT-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-13" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;初始化csv对应的player信息在本地缓存，统筹者内使用&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=8;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="80" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-16" value="结束" style="whiteSpace=wrap;html=1;fontSize=8;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="245" y="160" width="65" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-18" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=7;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="190" y="155" width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=7;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-19" target="9ICDOCjzjDNLYAUlCZeT-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-19" value="获取所有要执行的csv信息，得到一个list" style="whiteSpace=wrap;html=1;fontSize=8;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="80" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=7;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-22" target="9ICDOCjzjDNLYAUlCZeT-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-22" value="循环该list" style="whiteSpace=wrap;html=1;fontSize=8;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="80" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=7;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-28" target="9ICDOCjzjDNLYAUlCZeT-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=7;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-28" target="9ICDOCjzjDNLYAUlCZeT-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-28" value="将list中的每个元素转换为 线程业务类（&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 10.5pt&quot;&gt;OssNfsThread&lt;/span&gt;&lt;span&gt;），并添加到线程池中，后续业务在线程类执行&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="80" y="720" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-30" value="结束" style="whiteSpace=wrap;html=1;fontSize=8;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="102.5" y="890" width="75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=13;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-34" target="9ICDOCjzjDNLYAUlCZeT-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-34" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 10.5pt&quot;&gt;OssNfsThread&lt;br&gt;&lt;/span&gt;&lt;font face=&quot;宋体&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;流程&lt;/span&gt;&lt;/font&gt;开始" style="rounded=1;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="294" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-37" value="&lt;span style=&quot;font-size: 14px ; text-align: center ; background-color: rgb(255 , 255 , 255)&quot;&gt;OssNfsThread类说明&lt;/span&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 7px ; font-weight: 400&quot;&gt;该类会根据csv 名称、以及昨日日期自动拼接 csv在oss上的路径，并自动执行相应的组件（下载、压缩、上传、文件删除）。&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;组件的执行状态通过&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;csv_process_record表中的status状态体现。&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=7;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="270" y="640" width="260" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-38" target="9ICDOCjzjDNLYAUlCZeT-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-38" value="&lt;span style=&quot;font-size: 5px; background-color: rgb(255, 255, 255);&quot;&gt;获取前一日时间，格式为yyyy-MM-dd&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=5;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="294" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-40" target="9ICDOCjzjDNLYAUlCZeT-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-40" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;拼接csv在oss上的路径，同时凭借下载后的csv在nfs上的路径&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=5;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="294" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-42" target="9ICDOCjzjDNLYAUlCZeT-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-42" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;删除nfs上前日的csv压缩数据，如今天是5月6号，则删除5月4号的数据&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=5;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="294" y="1060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-44" target="9ICDOCjzjDNLYAUlCZeT-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-44" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;执行下载&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=5;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="296" y="1160" width="116" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-46" target="9ICDOCjzjDNLYAUlCZeT-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-46" target="9ICDOCjzjDNLYAUlCZeT-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-46" value="csv是否下载成功" style="rhombus;whiteSpace=wrap;html=1;fontSize=5;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="314" y="1230" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-54" target="9ICDOCjzjDNLYAUlCZeT-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-54" target="9ICDOCjzjDNLYAUlCZeT-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-54" value="响应结果是否为文件不存在？" style="rhombus;whiteSpace=wrap;html=1;fontSize=5;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="435" y="1290" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-56" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=5;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="412" y="1280" width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-59" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=5;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="540" y="1320" width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-60" value="更新该记录状态为下载失败。&lt;br&gt;流程结束" style="whiteSpace=wrap;html=1;fontSize=5;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="590" y="1310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-63" target="9ICDOCjzjDNLYAUlCZeT-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-63" value="更新该记录为下载成功，同时向统筹者发送消息，告知该csv已就绪" style="whiteSpace=wrap;html=1;fontSize=5;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="430" y="1430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-65" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=5;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="460" y="1400" width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-66" value="流程结束" style="whiteSpace=wrap;html=1;fontSize=5;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="430" y="1530" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-68" target="9ICDOCjzjDNLYAUlCZeT-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-68" value="更新记录为下载成功，并插入本次下载的csv字节数" style="whiteSpace=wrap;html=1;fontSize=5;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="125" y="1310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-70" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=5;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="245" y="1280" width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-71" target="9ICDOCjzjDNLYAUlCZeT-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-71" value="执行压缩" style="whiteSpace=wrap;html=1;fontSize=5;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="122.5" y="1400" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-73" target="9ICDOCjzjDNLYAUlCZeT-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-73" target="9ICDOCjzjDNLYAUlCZeT-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-73" value="是否压缩成功" style="rhombus;whiteSpace=wrap;html=1;fontSize=5;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="132.5" y="1470" width="105" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-75" value="更新该记录为压缩失败。&lt;br&gt;流程结束" style="whiteSpace=wrap;html=1;fontSize=5;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-60" y="1485" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-77" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=5;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="85" y="1485" width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-78" target="9ICDOCjzjDNLYAUlCZeT-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-78" value="更新该记录为压缩成功" style="whiteSpace=wrap;html=1;fontSize=5;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="125" y="1610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-80" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=5;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="195" y="1575" width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-81" target="9ICDOCjzjDNLYAUlCZeT-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-81" value="执行文件上传，将压缩的zip上传到oss上" style="whiteSpace=wrap;html=1;fontSize=5;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="121.25" y="1700" width="127.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-83" target="9ICDOCjzjDNLYAUlCZeT-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-83" target="9ICDOCjzjDNLYAUlCZeT-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-83" value="是否上传成功" style="rhombus;whiteSpace=wrap;html=1;fontSize=5;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="122.5" y="1790" width="125" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-85" value="更新该记录为上传失败。&lt;br&gt;流程结束" style="whiteSpace=wrap;html=1;fontSize=5;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-60" y="1810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-87" value="否&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=5;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="85" y="1815" width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-88" target="9ICDOCjzjDNLYAUlCZeT-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-88" value="更新该记录为上传成功，并向统筹者发送csv已就绪的信息" style="whiteSpace=wrap;html=1;fontSize=5;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="125" y="1930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-90" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=5;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="185" y="1905" width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-91" value="结束" style="whiteSpace=wrap;html=1;fontSize=5;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="127.5" y="2020" width="115" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
