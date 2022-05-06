@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-06T06:05:24.576Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="u70ebdSxrqOTdNu8xjCF" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-06T06:28:49.964Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="5von2brJaSEmmrAOkzeO" version="16.5.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1847" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -70,7 +70,7 @@
         <mxCell id="9ICDOCjzjDNLYAUlCZeT-30" value="结束" style="whiteSpace=wrap;html=1;fontSize=8;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="102.5" y="890" width="75" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9ICDOCjzjDNLYAUlCZeT-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=13;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-34" target="9ICDOCjzjDNLYAUlCZeT-38">
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-34" target="9ICDOCjzjDNLYAUlCZeT-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9ICDOCjzjDNLYAUlCZeT-34" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 10.5pt&quot;&gt;OssNfsThread&lt;br&gt;&lt;/span&gt;&lt;font face=&quot;宋体&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;流程&lt;/span&gt;&lt;/font&gt;开始" style="rounded=1;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -82,16 +82,19 @@
         <mxCell id="9ICDOCjzjDNLYAUlCZeT-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-38" target="9ICDOCjzjDNLYAUlCZeT-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-96" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-38" target="9ICDOCjzjDNLYAUlCZeT-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9ICDOCjzjDNLYAUlCZeT-38" value="&lt;span style=&quot;font-size: 5px; background-color: rgb(255, 255, 255);&quot;&gt;获取前一日时间，格式为yyyy-MM-dd&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=5;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="294" y="860" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9ICDOCjzjDNLYAUlCZeT-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-40" target="9ICDOCjzjDNLYAUlCZeT-42">
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-40" target="9ICDOCjzjDNLYAUlCZeT-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9ICDOCjzjDNLYAUlCZeT-40" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;拼接csv在oss上的路径，同时凭借下载后的csv在nfs上的路径&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=5;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="294" y="960" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9ICDOCjzjDNLYAUlCZeT-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-42" target="9ICDOCjzjDNLYAUlCZeT-44">
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-42" target="9ICDOCjzjDNLYAUlCZeT-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9ICDOCjzjDNLYAUlCZeT-42" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;删除nfs上前日的csv压缩数据，如今天是5月6号，则删除5月4号的数据&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=5;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -103,19 +106,19 @@
         <mxCell id="9ICDOCjzjDNLYAUlCZeT-44" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;执行下载&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=5;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="296" y="1160" width="116" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9ICDOCjzjDNLYAUlCZeT-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-46" target="9ICDOCjzjDNLYAUlCZeT-54">
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-46" target="9ICDOCjzjDNLYAUlCZeT-54">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9ICDOCjzjDNLYAUlCZeT-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-46" target="9ICDOCjzjDNLYAUlCZeT-68">
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-46" target="9ICDOCjzjDNLYAUlCZeT-68">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9ICDOCjzjDNLYAUlCZeT-46" value="csv是否下载成功" style="rhombus;whiteSpace=wrap;html=1;fontSize=5;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="314" y="1230" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="9ICDOCjzjDNLYAUlCZeT-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-54" target="9ICDOCjzjDNLYAUlCZeT-60">
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-54" target="9ICDOCjzjDNLYAUlCZeT-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9ICDOCjzjDNLYAUlCZeT-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-54" target="9ICDOCjzjDNLYAUlCZeT-63">
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-54" target="9ICDOCjzjDNLYAUlCZeT-63">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9ICDOCjzjDNLYAUlCZeT-54" value="响应结果是否为文件不存在？" style="rhombus;whiteSpace=wrap;html=1;fontSize=5;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -130,7 +133,7 @@
         <mxCell id="9ICDOCjzjDNLYAUlCZeT-60" value="更新该记录状态为下载失败。&lt;br&gt;流程结束" style="whiteSpace=wrap;html=1;fontSize=5;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="590" y="1310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9ICDOCjzjDNLYAUlCZeT-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-63" target="9ICDOCjzjDNLYAUlCZeT-66">
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-63" target="9ICDOCjzjDNLYAUlCZeT-66">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9ICDOCjzjDNLYAUlCZeT-63" value="更新该记录为下载成功，并向统筹者（&lt;span style=&quot;font-weight: bold ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;coordinatorProducer&lt;/font&gt;&lt;/span&gt;）发送csv已就绪的信息" style="whiteSpace=wrap;html=1;fontSize=5;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -142,7 +145,7 @@
         <mxCell id="9ICDOCjzjDNLYAUlCZeT-66" value="流程结束" style="whiteSpace=wrap;html=1;fontSize=5;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="430" y="1575" width="120" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="9ICDOCjzjDNLYAUlCZeT-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-68" target="9ICDOCjzjDNLYAUlCZeT-71">
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-68" target="9ICDOCjzjDNLYAUlCZeT-71">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9ICDOCjzjDNLYAUlCZeT-68" value="更新记录为下载成功，并插入本次下载的csv字节数" style="whiteSpace=wrap;html=1;fontSize=5;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -151,16 +154,16 @@
         <mxCell id="9ICDOCjzjDNLYAUlCZeT-70" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=5;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="245" y="1280" width="30" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="9ICDOCjzjDNLYAUlCZeT-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-71" target="9ICDOCjzjDNLYAUlCZeT-73">
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-71" target="9ICDOCjzjDNLYAUlCZeT-73">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9ICDOCjzjDNLYAUlCZeT-71" value="执行压缩" style="whiteSpace=wrap;html=1;fontSize=5;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="122.5" y="1400" width="125" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9ICDOCjzjDNLYAUlCZeT-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-73" target="9ICDOCjzjDNLYAUlCZeT-75">
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-73" target="9ICDOCjzjDNLYAUlCZeT-75">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9ICDOCjzjDNLYAUlCZeT-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-73" target="9ICDOCjzjDNLYAUlCZeT-78">
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-73" target="9ICDOCjzjDNLYAUlCZeT-78">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9ICDOCjzjDNLYAUlCZeT-73" value="是否压缩成功" style="rhombus;whiteSpace=wrap;html=1;fontSize=5;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -172,7 +175,7 @@
         <mxCell id="9ICDOCjzjDNLYAUlCZeT-77" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=5;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="85" y="1485" width="30" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="9ICDOCjzjDNLYAUlCZeT-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-78" target="9ICDOCjzjDNLYAUlCZeT-81">
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-78" target="9ICDOCjzjDNLYAUlCZeT-81">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9ICDOCjzjDNLYAUlCZeT-78" value="更新该记录为压缩成功" style="whiteSpace=wrap;html=1;fontSize=5;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -181,16 +184,16 @@
         <mxCell id="9ICDOCjzjDNLYAUlCZeT-80" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=5;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="195" y="1575" width="30" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="9ICDOCjzjDNLYAUlCZeT-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-81" target="9ICDOCjzjDNLYAUlCZeT-83">
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-81" target="9ICDOCjzjDNLYAUlCZeT-83">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9ICDOCjzjDNLYAUlCZeT-81" value="执行文件上传，将压缩的zip上传到oss上" style="whiteSpace=wrap;html=1;fontSize=5;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="121.25" y="1700" width="127.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9ICDOCjzjDNLYAUlCZeT-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-83" target="9ICDOCjzjDNLYAUlCZeT-85">
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-83" target="9ICDOCjzjDNLYAUlCZeT-85">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9ICDOCjzjDNLYAUlCZeT-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-83" target="9ICDOCjzjDNLYAUlCZeT-88">
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-83" target="9ICDOCjzjDNLYAUlCZeT-88">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9ICDOCjzjDNLYAUlCZeT-83" value="是否上传成功" style="rhombus;whiteSpace=wrap;html=1;fontSize=5;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -202,7 +205,10 @@
         <mxCell id="9ICDOCjzjDNLYAUlCZeT-87" value="否&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=5;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="85" y="1815" width="30" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="9ICDOCjzjDNLYAUlCZeT-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-88" target="9ICDOCjzjDNLYAUlCZeT-91">
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=5;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-88" target="9ICDOCjzjDNLYAUlCZeT-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;fontSize=11;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-88" target="9ICDOCjzjDNLYAUlCZeT-93">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9ICDOCjzjDNLYAUlCZeT-88" value="更新该记录为上传成功，并向统筹者（&lt;span style=&quot;font-weight: bold ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;coordinatorProducer&lt;/font&gt;&lt;/span&gt;&lt;span&gt;）发送csv已就绪的信息&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=5;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -212,13 +218,163 @@
           <mxGeometry x="185" y="1905" width="30" height="10" as="geometry" />
         </mxCell>
         <mxCell id="9ICDOCjzjDNLYAUlCZeT-91" value="结束" style="whiteSpace=wrap;html=1;fontSize=5;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="127.5" y="2050" width="115" height="40" as="geometry" />
+          <mxGeometry x="127.5" y="2060" width="115" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9ICDOCjzjDNLYAUlCZeT-93" value="&lt;h1 style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 5px ; text-align: center ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;coordinatorProducer&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;font-size: 5px ; text-align: center ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;开始&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=5;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="400" y="1960" width="120" height="60" as="geometry" />
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-98" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-93" target="9ICDOCjzjDNLYAUlCZeT-97">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9ICDOCjzjDNLYAUlCZeT-94" value="&lt;h1&gt;&lt;span style=&quot;font-size: 5px ; text-align: center ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;coordinatorProducer（kafka生产者）&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;该生产者在发送消息之前，会将该csv与执行日期，服务前缀进行拼接，放入redis中，消费者需判断该key是否存在，再决定是否执行消费（防止重复消费）&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=5;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="390" y="1840" width="190" height="120" as="geometry" />
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-93" value="&lt;h1 style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 5px ; text-align: center ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;CoordinatorProducer&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;font-size: 5px ; text-align: center ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;开始&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=5;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="390" y="1942.5" width="140" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-94" value="&lt;h1&gt;&lt;span style=&quot;font-size: 5px ; text-align: center ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;CoordinatorProducer（统筹者——生产者）&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;该生产者在发送消息之前，会将该csv与执行日期，服务前缀进行拼接，放入redis中，消费者需判断该key是否存在，再决定是否执行消费（防止重复消费）&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=5;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="380" y="1822.5" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-100" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-97" target="9ICDOCjzjDNLYAUlCZeT-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-97" value="&lt;h1 style=&quot;text-align: center&quot;&gt;&lt;span style=&quot;font-size: 5px ; font-weight: 400&quot;&gt;将csv与执行日期、服务前缀进行凭借，存入redis中。消费者消费完该消息再将该key从reids中删除，防止重复消费&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;font-size: 5px ; font-weight: 400&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=5;fontColor=#000000;fontStyle=0" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="385" y="2047.5" width="150" height="102.5" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-99" target="9ICDOCjzjDNLYAUlCZeT-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=11;fontColor=#000000;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-99" target="9ICDOCjzjDNLYAUlCZeT-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-99" value="&lt;h1 style=&quot;text-align: center&quot;&gt;&lt;span style=&quot;font-size: 5px ; font-weight: 400&quot;&gt;消息发送。&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;font-size: 5px ; font-weight: 400&quot;&gt;消费者为（&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;microsoft yahei ui&amp;#34; ; font-size: 9pt&quot;&gt;CoordinatorConsumers&lt;/span&gt;&lt;span&gt;）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 5px ; font-weight: 400&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=5;fontColor=#000000;fontStyle=0" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="380" y="2190" width="161.25" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-101" value="流程结束" style="whiteSpace=wrap;html=1;fontSize=5;fontColor=#000000;rounded=1;fontStyle=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="400.63" y="2300" width="119.38" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-108" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-103" target="9ICDOCjzjDNLYAUlCZeT-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-103" value="&lt;h1 style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;microsoft yahei ui&amp;#34; ; font-size: 12px ; font-weight: 400 ; text-align: center ; background-color: rgb(255 , 255 , 255)&quot;&gt;CoordinatorConsumers&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;font-size: 5px ; text-align: center ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;开始&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=5;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="637" y="2197.5" width="140" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-104" value="&lt;span style=&quot;font-family: &amp;#34;microsoft yahei ui&amp;#34; ; font-size: 12px ; text-align: center ; background-color: rgb(255 , 255 , 255)&quot;&gt;CoordinatorConsumers&lt;/span&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 5px ; text-align: center ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;（统筹者—消费者）&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;收到消息，即便是该csv已经就绪，程序根据csv得到依赖该csv的所有player，并逐个判断该player是否就绪，若该player就绪，则调用该player。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=5;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="637" y="2070" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-106" value="注：所有服务中都有异常捕获，发生异常时会发送对应的异常邮件，该情况在流程中不做说明。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="10" y="10" width="500" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-110" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-107" target="9ICDOCjzjDNLYAUlCZeT-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-107" value="&lt;h1 style=&quot;text-align: center&quot;&gt;&lt;font face=&quot;microsoft yahei ui&quot;&gt;&lt;span style=&quot;font-weight: 400 ; background-color: rgb(255 , 255 , 255)&quot;&gt;消息对象非空校验，若消息为空，则流程结束&lt;/span&gt;&lt;/font&gt;&lt;/h1&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=5;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="637" y="2310" width="140" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-114" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-109" target="9ICDOCjzjDNLYAUlCZeT-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-109" value="&lt;h1 style=&quot;text-align: center&quot;&gt;&lt;font face=&quot;microsoft yahei ui&quot;&gt;&lt;span style=&quot;font-weight: 400 ; background-color: rgb(255 , 255 , 255)&quot;&gt;解析消息，并初始化消费日志类。无论程序是否执行成功，该操作都会被记录。&lt;/span&gt;&lt;/font&gt;&lt;/h1&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=5;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="637" y="2420" width="140" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-116" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-113" target="9ICDOCjzjDNLYAUlCZeT-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-113" value="&lt;h1 style=&quot;text-align: center&quot;&gt;&lt;font face=&quot;microsoft yahei ui&quot;&gt;&lt;span style=&quot;font-weight: 400 ; background-color: rgb(255 , 255 , 255)&quot;&gt;根据csv名称、执行日期、服务前缀拼接redis key，作消费重复性校验&lt;/span&gt;&lt;/font&gt;&lt;/h1&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=5;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="637" y="2540" width="140" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-118" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-115" target="9ICDOCjzjDNLYAUlCZeT-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-121" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-115" target="9ICDOCjzjDNLYAUlCZeT-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-115" value="key是否在redis中存在" style="rhombus;whiteSpace=wrap;html=1;fontSize=5;fontColor=#000000;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="634.75" y="2640" width="144.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-117" value="记录该操作。&lt;br&gt;流程结束" style="whiteSpace=wrap;html=1;fontSize=5;fontColor=#000000;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="871.5" y="2660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-119" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="805" y="2660" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-124" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-120" target="9ICDOCjzjDNLYAUlCZeT-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-120" value="删除该key。&lt;br&gt;并从缓存中获取csv对应的所有player，得到一个list" style="whiteSpace=wrap;html=1;fontSize=5;fontColor=#000000;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="647" y="2780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-122" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="715" y="2750" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-126" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-123" target="9ICDOCjzjDNLYAUlCZeT-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-129" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-123" target="9ICDOCjzjDNLYAUlCZeT-128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-123" value="list是否为空" style="rhombus;whiteSpace=wrap;html=1;fontSize=5;fontColor=#000000;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="645.5" y="2883" width="123" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-125" value="记录该操作。&lt;br&gt;流程结束" style="whiteSpace=wrap;html=1;fontSize=5;fontColor=#000000;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="871.5" y="2901.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-127" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="785" y="2900" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-132" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-128" target="9ICDOCjzjDNLYAUlCZeT-131">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-128" value="将list内的所有player在redis中的value值进行原子性的+1" style="whiteSpace=wrap;html=1;fontSize=5;fontColor=#000000;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="647" y="3030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-130" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="715" y="2990" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-136" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-131" target="9ICDOCjzjDNLYAUlCZeT-135">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-131" value="循环所有player" style="whiteSpace=wrap;html=1;fontSize=5;fontColor=#000000;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="647" y="3120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-138" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-135" target="9ICDOCjzjDNLYAUlCZeT-137">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-135" value="从缓存中获取每一个player对应的csv数量，该数量通过sql查询得出" style="whiteSpace=wrap;html=1;fontSize=5;fontColor=#000000;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="647" y="3220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-140" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-137" target="9ICDOCjzjDNLYAUlCZeT-139">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-143" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-137" target="9ICDOCjzjDNLYAUlCZeT-142">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-137" value="player在redis中的value是否等于sql查询出的该player对应的csv数量" style="rhombus;whiteSpace=wrap;html=1;fontSize=5;fontColor=#000000;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="635.5" y="3320" width="143" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-139" value="continue，继续下一个player的匹配" style="whiteSpace=wrap;html=1;fontSize=5;fontColor=#000000;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="870" y="3345" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-141" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="805" y="3350" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-146" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-142" target="9ICDOCjzjDNLYAUlCZeT-145">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-142" value="从redis中删除该player的key" style="whiteSpace=wrap;html=1;fontSize=5;fontColor=#000000;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="647" y="3470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-144" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="715" y="3440" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-148" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-145" target="9ICDOCjzjDNLYAUlCZeT-147">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-145" value="拼接播放器所需要的参数" style="whiteSpace=wrap;html=1;fontSize=5;fontColor=#000000;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="647" y="3570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-150" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9ICDOCjzjDNLYAUlCZeT-147" target="9ICDOCjzjDNLYAUlCZeT-149">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-147" value="调用播放器" style="whiteSpace=wrap;html=1;fontSize=5;fontColor=#000000;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="647" y="3670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ICDOCjzjDNLYAUlCZeT-149" value="流程结束" style="whiteSpace=wrap;html=1;fontSize=5;fontColor=#000000;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="647" y="3780" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
